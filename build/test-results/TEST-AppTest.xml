@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AppTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-02-09T18:00:39" hostname="epicodus-51.local" time="0.002">
+<testsuite name="AppTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-02-09T18:34:05" hostname="epicodus-51.local" time="0.003">
   <properties/>
-  <testcase name="scrabbleScore_returnsAScrabbleScoreForALetter_1" classname="AppTest" time="0.001"/>
+  <testcase name="scrabbleScore_returnsAScrabbleScoreForAWord_24" classname="AppTest" time="0.0"/>
+  <testcase name="scrabbleScore_returnsAScrabbleScoreForALetter_10" classname="AppTest" time="0.0"/>
+  <testcase name="scrabbleScore_returnsAScrabbleScoreForALetter_1" classname="AppTest" time="0.0"/>
   <testcase name="scrabbleScore_returnsAScrabbleScoreForALetter_2" classname="AppTest" time="0.0"/>
   <testcase name="scrabbleScore_returnsAScrabbleScoreForALetter_3" classname="AppTest" time="0.0"/>
+  <testcase name="scrabbleScore_returnsAScrabbleScoreForALetter_4" classname="AppTest" time="0.001"/>
+  <testcase name="scrabbleScore_returnsAScrabbleScoreForALetter_5" classname="AppTest" time="0.0"/>
+  <testcase name="scrabbleScore_returnsAScrabbleScoreForALetter_8" classname="AppTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

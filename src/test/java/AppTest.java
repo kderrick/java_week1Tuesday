@@ -23,6 +23,37 @@ public class AppTest {
     Integer score = 3;
     assertEquals(score, appTest.scrabbleScore("b"));
   }
+  @Test
+  public void scrabbleScore_returnsAScrabbleScoreForALetter_4() {
+    App appTest = new App();
+    Integer score = 4;
+    assertEquals(score, appTest.scrabbleScore("v"));
+  }
+  @Test
+  public void scrabbleScore_returnsAScrabbleScoreForALetter_5() {
+    App appTest = new App();
+    Integer score = 5;
+    assertEquals(score, appTest.scrabbleScore("k"));
+  }
 
+  @Test
+  public void scrabbleScore_returnsAScrabbleScoreForALetter_8() {
+    App appTest = new App();
+    Integer score = 8;
+    assertEquals(score, appTest.scrabbleScore("x"));
+  }
 
+  @Test
+  public void scrabbleScore_returnsAScrabbleScoreForALetter_10() {
+    App appTest = new App();
+    Integer score = 10;
+    assertEquals(score, appTest.scrabbleScore("q"));
+  }
+
+  @Test
+  public void scrabbleScore_returnsAScrabbleScoreForAWord_24() {
+    App appTest = new App();
+    Integer score = 24;
+    assertEquals(score, appTest.scrabbleScore("xylophone"));
+  }
 }
