@@ -10,5 +10,19 @@ public class AppTest {
     assertEquals(score, appTest.scrabbleScore("a"));
   }
 
+  @Test
+  public void scrabbleScore_returnsAScrabbleScoreForALetter_2() {
+    App appTest = new App();
+    Integer score = 2;
+    assertEquals(score, appTest.scrabbleScore("d"));
+  }
+
+  @Test
+  public void scrabbleScore_returnsAScrabbleScoreForALetter_3() {
+    App appTest = new App();
+    Integer score = 3;
+    assertEquals(score, appTest.scrabbleScore("b"));
+  }
+
 
 }
